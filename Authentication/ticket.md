@@ -22,7 +22,7 @@ none
 **Return** __shortened response__
 ``` json
 {
-	"ticket": "*a string of 114 character*",
+	"ticket": "*a string of 114 characters*",
 	"len": 108,
 	"ulen": 114,
 	"md5": "*a md5 string*"
