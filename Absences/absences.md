@@ -1,8 +1,7 @@
 # Response
 ```json
 {
-    "events":
-    [
+    "events": [
         {
             "evtId": 1065236,
             "evtCode": "ABR1",
@@ -35,8 +34,8 @@
               "justifReasonCode": "A",
               "justifReasonDesc": "Motivi di salute",
               "hoursAbsence": []
-          },
-          {
+        },
+        {
               "evtId": 5149031,
               "evtCode": "ABA0",
               "evtDate": "2022-01-22",
@@ -46,8 +45,8 @@
               "justifReasonCode": "A",
               "justifReasonDesc": "Motivi di salute",
               "hoursAbsence": []
-          },
-          {
+        },
+        {
               "evtId": 7086768,
               "evtCode": "ABA0",
               "evtDate": "2022-01-31",
@@ -78,8 +77,8 @@
                       "subject": "LINGUA E CULTURA STRANIERA (INGLESE)"
                   }
               ]
-          },
-          {
+        },
+        {
               "evtId": 8951323,
               "evtCode": "ABA0",
               "evtDate": "2022-04-21",
@@ -89,8 +88,8 @@
               "justifReasonCode": "A",
               "justifReasonDesc": "Motivi di salute",
               "hoursAbsence": []
-          },
-          {
+        },
+        {
               "evtId": 10166045,
               "evtCode": "ABU0",
               "evtDate": "2022-05-21",
@@ -100,7 +99,7 @@
               "justifReasonCode": null,
               "justifReasonDesc": null,
               "hoursAbsence": []
-          }
-      ]
-  }
+        }
+    ]
+}
 ```
