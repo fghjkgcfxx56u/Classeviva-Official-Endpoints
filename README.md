@@ -27,7 +27,7 @@ _Warning: without these headers, the request will fail._
 
 ### User
 ##### Absence
-- **[<code>GET</code> v1/students/_{studentId}_/absences/details]()**
+- **[<code>GET</code> v1/students/_{studentId}_/absences/details](Absences/absences.md)**
 - **[<code>GET</code> v1/students/_{studentId}_/absences/details/_{begin}_]()**
 - **[<code>GET</code> v1/students/_{studentId}_/absences/details/_{begin}_/_{end}_]()**
 ##### Agenda
