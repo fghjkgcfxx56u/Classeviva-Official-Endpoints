@@ -1,3 +1,19 @@
+# Absences
+
+    GET **rest/v1/students/{studentId}/absences/details**
+
+## Description
+Get a list of the student's events, like absences and lates
+
+## Required Header
+* Z-Dev-ApiKey
+* Z-Auth-Token
+* User-Agent: zorro/1.0
+* Z-Auth-Token: token
+
+## Parameters
+- **studentId** _(required)_ — your student id obtained with the login
+
 # Response
 ```json
 {
