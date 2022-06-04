@@ -28,3 +28,10 @@ print(requests.get(
     "https://web.spaggiari.eu/rest/v1/students/{}/subjects".format(id_().removeprefix("S")),
     headers=i_
 ).json())
+print(requests.get(
+    "https://web.spaggiari.eu/rest/v1/students/{}/agenda/{}/20220301/20220602".format(
+        id_().removeprefix("S"),
+        "AGNT"
+    ),
+    headers=i_
+).json())
