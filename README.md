@@ -4,7 +4,7 @@ This repository provides the list of official Endpoints for Classeviva
 ***
 
 ## Libraries
-* Coming soon 👻
+* [`Classeviva.py`](https://github.com/Lioydiano/Classeviva)
 
 ## How to contribute
 If you want to contribute, please open a pull request using template file
