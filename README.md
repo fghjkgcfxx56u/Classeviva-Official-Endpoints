@@ -31,7 +31,7 @@ _Warning: without these headers, the request will fail._
 - **[<code>GET</code> v1/students/_{studentId}_/absences/details/_{begin}_](Absences/from.md)**
 - **[<code>GET</code> v1/students/_{studentId}_/absences/details/_{begin}_/_{end}_](Absences/from_to.md)**
 ##### Agenda
-- **[<code>GET</code> v1/students/_{studentId}_/agenda/all/_{begin}_/_{end}_]()**
+- **[<code>GET</code> v1/students/_{studentId}_/agenda/all/_{begin}_/_{end}_](Agenda/from_to.md)**
 - **[<code>GET</code> v1/students/_{studentId}_/agenda/_{eventCode}_/_{begin}_/_{end}_]()**
 ##### Didactics
 - **[<code>GET</code> v1/students/_{studentId}_/didactics]()**
