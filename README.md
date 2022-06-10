@@ -37,7 +37,7 @@ _Warning: without these headers, the request will fail._
 - **[<code>GET</code> v1/students/_{studentId}_/didactics]()**
 - **[<code>GET</code> v1/students/_{studentId}_/didactics/item/_{contentId}_]()**
 ##### Notice Board
-- **[<code>GET</code> v1/students/_{studentId}_/noticeboard]()**
+- **[<code>GET</code> v1/students/_{studentId}_/noticeboard](Noticeboard/noticeboard.md)**
 - **[<code>POST</code> v1/students/_{studentId}_/noticeboard/read/_{eventCode}_/_{pubId}_/101]()**
 - **[<code>GET</code> v1/students/_{studentId}_/noticeboard/attach/_{eventCode}_/_{pubId}_/101]()**
 ##### Schoolbooks
