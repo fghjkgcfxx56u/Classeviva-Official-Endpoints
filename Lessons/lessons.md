@@ -9,7 +9,7 @@
             "evtHPos": 1, 
             "evtDuration": 1, 
             "classDesc": "2QS SCIENTIFICO - OPZIONE SCIENZE APPLICATE QUADRIENNALE", 
-            "authorName": "POLATO FRANCESCA", 
+            "authorName": "COGNOME NOME", 
             "subjectId": 206167, 
             "subjectCode": null, 
             "subjectDesc": "FISICA", 
