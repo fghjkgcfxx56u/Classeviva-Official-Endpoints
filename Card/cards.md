@@ -1,0 +1,6 @@
+# Response
+```json
+{
+    "cards": []
+}
+```
