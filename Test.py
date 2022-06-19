@@ -39,7 +39,7 @@ print(requests.get(
 ).json())
 '''
 print(json.dumps(requests.get(
-    "https://web.spaggiari.eu/rest/v1/students/{}/calendar/all".format(
+    "https://web.spaggiari.eu/rest/v1/students/{}/schoolbooks".format(
         id_().removeprefix("S"),
     ),
     headers=i_
