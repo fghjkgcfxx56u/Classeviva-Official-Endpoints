@@ -41,12 +41,12 @@ _Warning: without these headers, the request will fail._
 - **[<code>POST</code> v1/students/_{studentId}_/noticeboard/read/_{eventCode}_/_{pubId}_/101]()**
 - **[<code>GET</code> v1/students/_{studentId}_/noticeboard/attach/_{eventCode}_/_{pubId}_/101]()**
 ##### Schoolbooks
-- **[<code>GET</code> v1/students/_{studentId}_/schoolbooks]()**
+- **[<code>GET</code> v1/students/_{studentId}_/schoolbooks](Schoolbooks/schoolbooks.md)**
 ##### Calendar
-- **[<code>GET</code> v1/students/_{studentId}_/calendar/all]()** 🤔🤔🤔
+- **[<code>GET</code> v1/students/_{studentId}_/calendar/all](Calendar/calendar.md)** 🤔🤔🤔
 ##### Card
-- **[<code>GET</code> v1/students/_{studentId}_/card]()**
-- **[<code>GET</code> v1/students/_{studentId}_/cards]()**
+- **[<code>GET</code> v1/students/_{studentId}_/card](Card/card.md)**
+- **[<code>GET</code> v1/students/_{studentId}_/cards](Card/cards.md)**
 ##### Grades
 - **[<code>GET</code> v1/students/_{studentId}_/grades]()**
 ##### Lessons
