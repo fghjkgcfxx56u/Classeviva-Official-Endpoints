@@ -1,4 +1,5 @@
 import requests
+import json
 from classeviva.variabili import intestazione
 from classeviva.collegamenti import Collegamenti as C
 
@@ -24,6 +25,7 @@ print(token)
 
 i_ = intestazione.copy()
 i_["Z-Auth-Token"] = token
+'''
 print(requests.get(
     "https://web.spaggiari.eu/rest/v1/students/{}/subjects".format(id_().removeprefix("S")),
     headers=i_
@@ -35,3 +37,10 @@ print(requests.get(
     ),
     headers=i_
 ).json())
+'''
+print(json.dumps(requests.get(
+    "https://web.spaggiari.eu/rest/v1/students/{}/calendar/all".format(
+        id_().removeprefix("S"),
+    ),
+    headers=i_
+).json(), indent=4))
