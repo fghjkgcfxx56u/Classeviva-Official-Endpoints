@@ -37,9 +37,15 @@ print(requests.get(
     ),
     headers=i_
 ).json())
-'''
 print(json.dumps(requests.get(
     "https://web.spaggiari.eu/rest/v1/students/{}/cards".format(
+        id_().removeprefix("S"),
+    ),
+    headers=i_
+).json(), indent=4))
+'''
+print(json.dumps(requests.get(
+    "https://web.spaggiari.eu/rest/v1/students/{}/grades".format(
         id_().removeprefix("S"),
     ),
     headers=i_

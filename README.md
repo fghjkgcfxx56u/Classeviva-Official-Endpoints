@@ -34,7 +34,7 @@ _Warning: without these headers, the request will fail._
 - **[<code>GET</code> v1/students/_{studentId}_/agenda/all/_{begin}_/_{end}_](Agenda/from_to.md)**
 - **[<code>GET</code> v1/students/_{studentId}_/agenda/_{eventCode}_/_{begin}_/_{end}_]()**
 ##### Didactics
-- **[<code>GET</code> v1/students/_{studentId}_/didactics]()**
+- **[<code>GET</code> v1/students/_{studentId}_/didactics](Didactics/didactics.md)**
 - **[<code>GET</code> v1/students/_{studentId}_/didactics/item/_{contentId}_]()**
 ##### Notice Board
 - **[<code>GET</code> v1/students/_{studentId}_/noticeboard](Noticeboard/noticeboard.md)**
@@ -48,11 +48,11 @@ _Warning: without these headers, the request will fail._
 - **[<code>GET</code> v1/students/_{studentId}_/card](Card/card.md)**
 - **[<code>GET</code> v1/students/_{studentId}_/cards](Card/cards.md)**
 ##### Grades
-- **[<code>GET</code> v1/students/_{studentId}_/grades]()**
+- **[<code>GET</code> v1/students/_{studentId}_/grades](Grades/grades.md)**
 ##### Lessons
-- **[<code>GET</code> v1/students/_{studentId}_/lessons/today]()**
-- **[<code>GET</code> v1/students/_{studentId}_/lessons/_{day}_]()**
-- **[<code>GET</code> v1/students/_{studentId}_/lessons/_{start}_/_{end}_]()**
+- **[<code>GET</code> v1/students/_{studentId}_/lessons/today](Lessons/lessons.md)**
+- **[<code>GET</code> v1/students/_{studentId}_/lessons/_{day}_](Lessons/lessons.md)**
+- **[<code>GET</code> v1/students/_{studentId}_/lessons/_{start}_/_{end}_](Lessons/lessons.md)**
 ##### Notes
 - **[<code>GET</code> v1/students/_{studentId}_/notes/all]()**
 - **[<code>POST</code> v1/students/_{studentId}_/notes/_{type}_/read/_{note}_]()**
