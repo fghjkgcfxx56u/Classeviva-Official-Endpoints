@@ -59,7 +59,7 @@ _Warning: without these headers, the request will fail._
 ##### Periods
 - **[<code>GET</code> v1/students/_{studentId}_/periods](Periods/periods.md)**
 ##### Subjects
-- **[<code>GET</code> v1/students/_{studentId}_/subjects]()**
+- **[<code>GET</code> v1/students/_{studentId}_/subjects](Subjects/subjects.md)**
 ##### Documents
 - **[<code>POST</code> v1/students/_{studentId}_/documents](Documents/documents.md)**
 - **[<code>POST</code> v1/students/_{studentId}_/documents/check/_{hash}_](Documents/check%20document.md)**
