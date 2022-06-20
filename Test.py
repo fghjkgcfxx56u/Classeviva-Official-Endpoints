@@ -25,27 +25,8 @@ print(token)
 
 i_ = intestazione.copy()
 i_["Z-Auth-Token"] = token
-'''
-print(requests.get(
-    "https://web.spaggiari.eu/rest/v1/students/{}/subjects".format(id_().removeprefix("S")),
-    headers=i_
-).json())
-print(requests.get(
-    "https://web.spaggiari.eu/rest/v1/students/{}/agenda/{}/20220301/20220602".format(
-        id_().removeprefix("S"),
-        "AGNT"
-    ),
-    headers=i_
-).json())
 print(json.dumps(requests.get(
-    "https://web.spaggiari.eu/rest/v1/students/{}/cards".format(
-        id_().removeprefix("S"),
-    ),
-    headers=i_
-).json(), indent=4))
-'''
-print(json.dumps(requests.get(
-    "https://web.spaggiari.eu/rest/v1/students/{}/grades".format(
+    "https://web.spaggiari.eu/rest/v1/students/{}/periods".format(
         id_().removeprefix("S"),
     ),
     headers=i_

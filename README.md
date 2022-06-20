@@ -57,7 +57,7 @@ _Warning: without these headers, the request will fail._
 - **[<code>GET</code> v1/students/_{studentId}_/notes/all]()**
 - **[<code>POST</code> v1/students/_{studentId}_/notes/_{type}_/read/_{note}_]()**
 ##### Periods
-- **[<code>GET</code> v1/students/_{studentId}_/periods]()**
+- **[<code>GET</code> v1/students/_{studentId}_/periods](Periods/periods.md)**
 ##### Subjects
 - **[<code>GET</code> v1/students/_{studentId}_/subjects]()**
 ##### Documents
