@@ -19,14 +19,14 @@ response = requests.post(
     headers=intestazione
 )
 token = response.json()["token"]
-print(response.json())
-print(token)
+# print(response.json())
+# print(token)
 
 
 i_ = intestazione.copy()
 i_["Z-Auth-Token"] = token
 print(json.dumps(requests.get(
-    "https://web.spaggiari.eu/rest/v1/students/{}/subjects".format(
+    "https://web.spaggiari.eu/rest/v1/students/{}/notes/all".format(
         id_().removeprefix("S"),
     ),
     headers=i_
