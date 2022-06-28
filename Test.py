@@ -25,9 +25,9 @@ token = response.json()["token"]
 
 i_ = intestazione.copy()
 i_["Z-Auth-Token"] = token
-print(json.dumps(requests.get(
-    "https://web.spaggiari.eu/rest/v1/students/{}/notes/all".format(
-        id_().removeprefix("S"),
+print(json.dumps(requests.post(
+    "https://web.spaggiari.eu/rest/v1/students/{}/notes/{}/read/{}".format(
+        id_().removeprefix("S"), "NTTE", 17119297
     ),
     headers=i_
 ).json(), indent=4))
