@@ -14,8 +14,9 @@ If you want to contribute, please open a pull request using template file
 _API Url: <code>https://web.spaggiari.eu/rest/</code>_
 
 ## Request Header
-- User-Agent: <code>zorro/1.0</code>
-- Z-Dev-Apikey: <code>+zorro+</code>
+- User-Agent: <code>CVVS/std/4.1.7 Android/10</code>
+- Z-Dev-Apikey: <code>Tg1NWEwNGIgIC0K</code>
+- ContentsDiary-Type: <code>application/json</code>
 
 _Warning: without these headers, the request will fail._
 
