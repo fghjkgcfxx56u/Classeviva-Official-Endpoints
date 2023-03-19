@@ -22,11 +22,11 @@ This endpoint provide the list of the absences
     https://web.spaggiari.eu/rest/v1/students/{studentId}/absences/details
 
 **Return** __shortened response__
-``` json
+``` jsonc
 {
 	"events": [
 		{
-			"evtId": *int_number*,
+			"evtId": 10103023013003123324, // Int number
 			"evtCode": "string",
 			"evtDate": "2017-09-20",
 			"evtHPos": null,
@@ -36,7 +36,7 @@ This endpoint provide the list of the absences
 			"justifReasonDesc": "Ritardo Breve"
 		},
 		{
-			"evtId": *int_number*,
+			"evtId": 809428301301392, // Int number
 			"evtCode": "string",
 			"evtDate": "2017-10-20",
 			"evtHPos": 1,
